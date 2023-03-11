@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery Page</title>
+    <link rel="stylesheet" href="gallery.css">
+
+    <style type="text/css">
+        * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-item {
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>My Gallery</h1>
+    </header>
+    <main>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/500x500.png?text=Image+1" alt="Image 1">
+            </div>
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/500x500.png?text=Image+2" alt="Image 2">
+            </div>
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/500x500.png?text=Image+3" alt="Image 3">
+            </div>
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/500x500.png?text=Image+4" alt="Image 4">
+            </div>
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/500x500.png?text=Image+5" alt="Image 5">
+            </div>
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/500x500.png?text=Image+6" alt="Image 6">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 My Gallery. All rights reserved.</p>
+    </footer>
+</body>
+</html>

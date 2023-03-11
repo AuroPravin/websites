@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Location Page</title>
+    <link rel="stylesheet" href="location.css">
+
+    <style type="text/css">
+        * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.map {
+    width: 50%;
+    height: 400px;
+}
+
+.address {
+    width: 50%;
+    padding: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Our Location</h1>
+    </header>
+    <main>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.6661939599916!2d-122.40827658467707!3d37.79087237975758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085807ab1e74b11%3A0x91945d8b62c2e6a5!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1647048342384!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="address">
+            <h2>Our Address</h2>
+            <p>123 Main Street</p>
+            <p>San Francisco, CA 94111</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Our Location. All rights reserved.</p>
+    </footer>
+</body>
+</html>
